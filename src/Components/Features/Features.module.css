@@ -1,0 +1,43 @@
+.acconts_details{
+    /* background: url("../../../public/accounts_image.png") no-repeat; */
+    background-color: #42eb89;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.acconts_details .container{
+    padding: 60px 0 0px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+
+.acconts_details .container .acconts_inner_wrapper {
+    display: flex;
+    margin-bottom: 60px;
+    color: #fff;
+    width: 30%;
+}
+.acconts_inner_wrapper .content-wrapper {
+    padding: 0 33px;
+}
+
+.headings {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+ .details span{
+    font-size: 20px;
+}
+.border_botom{
+    border-bottom: 2px solid grey;
+}
+.border_right{
+    border-right: 2px solid grey;
+}

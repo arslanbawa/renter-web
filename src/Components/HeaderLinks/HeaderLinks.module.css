@@ -1,0 +1,48 @@
+.social_media_icons{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.social_media_icons .text_wrapper a{
+    text-decoration: none;
+    color: #42eb89;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+.icons_wrapper i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0px 15px;
+    background-color: #42eb89;
+    color: white;
+    width: 50px;
+     height: 50px ;
+     align-items: center;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border-radius: 8px;
+}
+.icons_wrapper{
+    display: flex;
+}
+
+.social_media_icons .icons_wrapper i:hover{
+    transform: rotate(360deg);
+}
+.text_wrapper h2 span{
+    color: #42eb89;
+    font-size: 28px;
+    font-weight: 800;
+}
+.text_wrapper h2 {
+    font-weight: 100;
+}
