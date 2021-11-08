@@ -1,30 +1,31 @@
 import React from 'react'
 import styles from './AppCard.module.css'
-import android_app from '../../images/android_app.png'
-import ios_app from '../../images/ios_app.png'
 
 export default function AppCard() {
     return (
-        <div className={styles.card_wrapper}>
-                <div className={styles.Card1} >
-                    {/* <div className={styles.photo}></div> */}
-                    <div className={styles.details}>
-                      <h4>Download Renter app</h4>
-                        <div className={styles.card_icons_wrapper} >
-                            <div><a><img src={android_app} /></a></div>
-                        <div><a><img src={ios_app} /></a></div>
-                        </div>
-                    </div>
-                    <div className={styles.description}>
-                      <div className={styles.line}>
-                        <h1 className={styles.product_name}>Mobile and on your laptop</h1>
-                      </div>
-                      <h2>With Renter</h2>
-                      <p className={styles.summary}>
-                        As an owner you receive the profiles digitally, so that decisions can be made in all objectivity. Moreover, you can easily integrate with your website.</p>
-                      <a href="//s.codepen.io/ImagineAlex">Read More</a>
-                    </div>
-                  </div>
-            </div>
+     <>
+      <ul className={styles.links_wrapper}>
+      <li className={styles.links_li_wrapper}>
+        <div className={styles.download}>
+          <i className="fa fa fa-android fa-3x"></i>
+          <span className={styles.df}>Download from</span>
+          <span className={styles.dfn}>Google Play</span>
+        </div>
+      </li>
+      <li className={styles.links_li_wrapper}>
+        <div className={styles.download}>
+          <i className="fa fa fa-apple fa-3x"></i>
+          <span className={styles.df}>Download from</span>
+          <span className={styles.dfn}>App Store</span>
+        </div>
+      </li>
+      <li className={styles.links_li_wrapper}>
+        <div className={styles.download}>
+          <i class="fa fa fa-windows fa-3x"></i>
+          <span className={styles.df}>Download from</span>
+          <span className={styles.dfn}>Windows Store</span>
+        </div>
+      </li>
+    </ul></>
     )
 }

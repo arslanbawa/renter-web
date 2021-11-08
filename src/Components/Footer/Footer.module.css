@@ -1,0 +1,186 @@
+footer .container {
+    padding: 100px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .head_office_details {
+    max-width: 325px;
+}
+
+footer .head_office_details h6 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+footer .head_office_details p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 28px;
+}
+footer .head_office_details .head_office_text {
+    margin-bottom: 45px;
+}
+
+
+footer .head_office_details form {
+    display: flex;
+}
+
+footer .head_office_details button {
+    background-color: #42eb89;
+    padding: 10px;
+    border: none;
+    margin-right: 1px;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_nav p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color:#42eb89;
+}
+.footer_nav li  {
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    margin-bottom: 18px;
+}
+.footer_nav li:hover{
+  color: #42eb89;
+}
+.nav_padding{
+    padding-right: 100px;
+}
+.social_media{
+    font-weight: normal;
+    font-size: 18px;
+}
+.privacy_policy {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary);
+}
+.privacy_policy .container{
+    padding: 18px 0 18px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+}
+.icons_wrapper i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0px 15px;
+    background-color: #42eb89;
+    color: white;
+    width: 50px;
+     height: 50px ;
+     align-items: center;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+.icons_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.icons_wrapper i:hover{
+    transform: rotate(360deg);
+}
+
+
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+
+
+footer .links_wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+}
+
+.links_li_wrapper {
+  display: inline-block;
+  margin: 10px;
+}
+
+.download {
+  width: 200px;
+  height: 75px;
+  background: black;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 13px;
+}
+
+.download  .fa {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.df,
+.dfn {
+  position: absolute;
+  left: 70px;
+}
+
+.df {
+  top: 20px;
+  font-size: .68em;
+}
+
+.dfn {
+  top: 33px;
+  font-size: 1.08em;
+}
+
+.download:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+@media screen and (max-width: 960px){
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer .head_office_details {
+  max-width: 100%;
+}
+.footer_nav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  
+}
+.nav_padding{
+  padding-right: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+}

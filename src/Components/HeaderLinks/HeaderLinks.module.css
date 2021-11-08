@@ -46,3 +46,8 @@ box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
 .text_wrapper h2 {
     font-weight: 100;
 }
+@media screen and (max-width: 770px){
+.social_media_icons{
+    display: none;
+}
+}

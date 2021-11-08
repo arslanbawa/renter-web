@@ -10,16 +10,30 @@ export default function Banner() {
                 <div className={styles.banner_text_wrapper}>
                     <h2>Smart renting out with Renter.</h2>
                 <p>At Renter you will find everything to rent or rent without worries!</p>
-                </div>
-                <div >
-                    <div className={styles.app_icons}>
-                        <div className={styles.icon}><a><img src={play_store} /></a></div>
-                    <div className={styles.icon}><a><img src={app_store} /></a></div>
-                    </div>
-                    <div className={styles.app_icons}>
-                        <div className={styles.icon}><a><img src={qr_code} /></a></div>
-                    </div>
-                </div>
+                 </div>
+                 <ul className={styles.links_wrapper}>
+                    <li className={styles.links_li_wrapper}>
+                        <div className={styles.download}>
+                        <i className="fa fa fa-android fa-3x"></i>
+                        <span className={styles.df}>Download from</span>
+                        <span className={styles.dfn}>Google Play</span>
+                        </div>
+                    </li>
+                    <li className={styles.links_li_wrapper}>
+                        <div className={styles.download}>
+                        <i className="fa fa fa-apple fa-3x"></i>
+                        <span className={styles.df}>Download from</span>
+                        <span className={styles.dfn}>App Store</span>
+                        </div>
+                    </li>
+                    <li className={styles.links_li_wrapper}>
+                        <div className={styles.download}>
+                        <i class="fa fa fa-windows fa-3x"></i>
+                        <span className={styles.df}>Download from</span>
+                        <span className={styles.dfn}>Windows Store</span>
+                        </div>
+                    </li>
+                    </ul>
                 </div>
     )
 }
